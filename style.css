@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'); 
+html{
+    display: block;
+    height: 4675px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+
+}
+#background{
+    background-image: url(img/bg6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 990px;
+    height: 4000px;
+}
+.judul img{
+    width: 900px;
+    position: relative;
+    padding-left: 200px;
+    padding-right: 75px;
+    margin-top: 110px;
+}
+.foodcl{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    
+}
+.menu3 img{
+    width: 700px;
+    height: auto;
+}
+.ramencl img{
+    width: 400px;
+}
+.karecl img{
+    width: 400px;
+    margin-left: 100px;
+    padding-left: 100px;
+    margin-top: 15px;
+    
+}
+.matsucl img{
+    width: 400px;
+   margin-right: 100px;
+   padding-right: 70px;
+}
+#opt .opt3{
+    position: relative;
+    width: 800px;
+    margin-top: 200px;
+    margin-bottom: -20px;
+    padding-left: 200px;
+    
+}
+.button{
+    height: 250px;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.button img{
+    position: relative;
+}
+.button img:hover{
+    transform: scale(5deg);
+    scale: 1.1;
+    transition: 0,5s;
+}
+#menu{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(3, 82, 75);
+    font-size: 20px;
+}
+#kari {
+    position: relative;
+    height: 665px;
+}
+#ramen{
+    position: relative;
+    height: 665px;
+}
+#mabushi{
+    position: relative;
+    height: 665px;
+}
+.kari-title{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -55px;
+    padding-left: 300px;
+}
+.kari-bg{
+    height: 665px;
+    width: 990px;
+}
+.kari-bg{
+    background-image: url(img/bgfont.jpg);
+    background-position: center;
+}
+.kari-bg img{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    padding-left: 10px;
+}
+.karifont{
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-left: 450px;
+    top: 260px;
+    position: absolute;
+}
+.ramen-title{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -55px;
+    padding-left: 300px;
+}
+.ramen-bg{
+    height: 665px;
+    width: 990px;
+}
+.ramen-bg{
+    background-image: url(img/bgfont.jpg);
+    background-position: center;
+}
+.ramen-bg img{
+    width: 665px;
+    height: auto;
+    margin-top: 150px;
+    padding-left: -120px;
+    margin-left: -60px;
+}
+.ramenfont{
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-left: 450px;
+    top: 260px;
+    position: absolute;
+}
+.mabu-title{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -55px;
+    padding-left: 300px;
+}
+.mabu-bg{
+    height: 665px;
+    width: 990px;
+}
+.mabu-bg{
+    background-image: url(img/bgfont.jpg);
+    background-position: center;
+}
+.mabu-bg img{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+    padding-left: -120px;
+    margin-left: 50px;
+}
+.mabufont{
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-left: 450px;
+    top: 260px;
+    position: absolute;
+}
+.coupon{
+    width: 450px;
+    height: auto;
+    margin-top: 300px;
+    position: relative;
+    padding-left: 120px;
+}
+.coupon img:hover{
+    scale: 1.1;
+    transition: 0.7s;}
+
+.akusesu {
+    position: absolute;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    padding: 200px;
+    color: rgb(0, 0, 0);;
+}
